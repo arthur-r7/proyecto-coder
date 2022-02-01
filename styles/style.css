@@ -1,0 +1,295 @@
+/*reseteo*/
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  box-sizing: border-box;
+}
+
+/*header,listas y enlaces*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(44, 100%, 13%);
+  padding: 10px;
+}
+
+header li {
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+ul li {
+  list-style: none;
+  font-size: 20px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(245, 203, 51, 0.8);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+}
+
+body {
+  width: 100%;
+  height: 90vh;
+  display: inline;
+  box-sizing: border-box;
+  background-color: hsl(34, 57%, 70%);
+}
+
+/*titulos index*/
+.titulos {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 0px 10px;
+  position: relative;
+  top: 40px;
+}
+
+/*propiedades imagenes index*/
+
+.imagenes {
+  display: inline-block;
+  width: 100%;
+  height: 100vh;
+}
+
+.img-cafe {
+  width: 33%;
+  height: 100vh;
+}
+
+.img-paisaje {
+  width: 33%;
+  height: 100vh;
+}
+
+.img-sopa {
+  width: 33%;
+  height: 100vh;
+}
+
+/*footer*/
+
+.contenedor-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: hsl(44, 100%, 13%);
+  align-items: center;
+}
+
+footer li {
+  display: inline-block;
+  margin: 0px 20px;
+}
+
+/*fin pagina index*/
+
+/*paginaCafe*/
+
+#body- {
+  height: 900px;
+  width: 100%;
+}
+
+.inicio-cafe {
+  width: 100%;
+  height: 30%;
+  display: flex;
+}
+
+.texto-cafe {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 50px;
+}
+
+.texto-cafe h1 {
+  margin: 30px 0px;
+}
+
+.img-cafe1 {
+  width: auto;
+  height: 100vh;
+  flex-wrap: nowrap;
+}
+
+#linea-img .tipos-cafe img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  width: 33%;
+  display: inline-block;
+  margin: 0px 0px 30px 0px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.imgs-cafe-body {
+  width: 30%;
+  margin: 10px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+/*fin pagina cafe*/
+
+/*comienzo pagina paisajes*/
+
+.portada-paisajes {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+}
+
+.img-portada-paisaje {
+  width: 100%;
+  height: 100%;
+}
+
+.portada-paisajes .p-portada {
+  position: absolute;
+  z-index: 10;
+  top: 0px;
+  width: 30%;
+  left: 15px;
+}
+
+.imgs-paisajes-body {
+  width: 70%;
+  margin: 10px;
+  height: 300px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+/*fin pagina paisajes*/
+
+/*inicio pagina platos*/
+
+.portada-platos {
+  width: 100%;
+  height: 20vh;
+  position: relative;
+}
+
+.img-portada-platos {
+  width: 100%;
+  height: 500px;
+}
+
+.titulo-platos {
+  position: absolute;
+  top: 100px;
+  margin: 0px 0px 0px 40px;
+  z-index: 10;
+  color: blanchedalmond;
+}
+
+/*body departamentos*/
+.img-platos-body {
+  width: 33%;
+  height: 300px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+/*Antioquia*/
+.antioquia {
+  margin: 30px 0px;
+  text-align: center;
+}
+.primer-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/*Cundinamarca*/
+.segundo-flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.segundo-flex img {
+  margin: 20px 10px;
+}
+
+.segundo-flex p {
+  width: 15%;
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.cundinamarca {
+  margin: 30px 0px;
+  text-align: center;
+}
+
+/*Tolima*/
+.tercer-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.tolima {
+  margin: 30px 0px;
+  text-align: center;
+}
+
+/*fin pagina platos*/
+
+/*inicio pagina contacto*/
+.container-fondo {
+  position: relative;
+}
+.iframe-position {
+  position: sticky;
+  bottom: 0px;
+  width: 100%;
+  top: 0px;
+  z-index: -1;
+}
+
+.form {
+  position: absolute;
+  right: 15px;
+  top: 100px;
+}
+
+.container-fondo h1 {
+  text-align: end;
+}
